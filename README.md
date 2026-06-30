@@ -4,9 +4,34 @@ A template for new projects with Claude Code — includes curated skills and wor
 
 ## Using this template in a new project
 
-1. Copy the `.claude/` directory and `CLAUDE.md` into your project root.
-2. Open the project in Claude Code.
-3. The skills below are immediately available via `/skill-name`.
+### Option A — Claude Code
+
+Open Claude Code in your project directory and run:
+
+```
+/init https://github.com/sadronmeldir/claudeCodeStarter
+```
+
+### Option B — Command line
+
+```bash
+# Clone the starter into a temp directory, then copy into your project
+git clone https://github.com/sadronmeldir/claudeCodeStarter.git /tmp/claude-starter
+cp -r /tmp/claude-starter/.claude ./
+cp /tmp/claude-starter/CLAUDE.MD ./
+rm -rf /tmp/claude-starter
+```
+
+On Windows (PowerShell):
+
+```powershell
+git clone https://github.com/sadronmeldir/claudeCodeStarter.git "$env:TEMP\claude-starter"
+Copy-Item -Recurse "$env:TEMP\claude-starter\.claude" .
+Copy-Item "$env:TEMP\claude-starter\CLAUDE.MD" .
+Remove-Item -Recurse -Force "$env:TEMP\claude-starter"
+```
+
+Open the project in Claude Code — skills are immediately available via `/skill-name`.
 
 ## Included skills
 
