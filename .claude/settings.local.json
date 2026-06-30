@@ -1,0 +1,40 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(Get-ChildItem -Path \"C:\\\\Users\\\\chris\\\\Dropbox\\\\Private\\\\Claude Code\\\\Project Starter\" -Force -Recurse)",
+      "Bash(Select-Object FullName, PSIsContainer)",
+      "Bash(Sort-Object FullName)",
+      "Bash(Format-Table -AutoSize)",
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:api.github.com)",
+      "Bash(find /tmp/skills/skills -type f -name \"*.md\" -o -type f -name \"*.json\" -o -type f -name \"index.*\" | head -100)",
+      "Bash(ls -la /tmp/skills/skills/)",
+      "Bash(ls /tmp/skills/skills/engineering/ask-matt/)",
+      "Bash(cat /tmp/skills/skills/engineering/ask-matt/SKILL.md)",
+      "Bash(cat /tmp/skills/skills/engineering/diagnosing-bugs/SKILL.md)",
+      "Bash(cat /tmp/skills/skills/engineering/tdd/SKILL.md)",
+      "Bash(cat /tmp/skills/skills/productivity/grill-me/SKILL.md)",
+      "Bash(cat /tmp/skills/skills/productivity/handoff/SKILL.md)",
+      "Bash(cat /tmp/skills/skills/engineering/improve-codebase-architecture/SKILL.md)",
+      "Bash(cat /tmp/skills/skills/engineering/prototype/SKILL.md)",
+      "Bash(cat /tmp/skills/skills/engineering/to-prd/SKILL.md)",
+      "Bash(cat /tmp/skills/skills/engineering/to-issues/SKILL.md)",
+      "Bash(cat /tmp/skills/skills/engineering/triage/SKILL.md)",
+      "Bash(cat /tmp/skills/skills/engineering/domain-modeling/SKILL.md)",
+      "Bash(cat /tmp/skills/skills/productivity/teach/SKILL.md)",
+      "Bash(cat /tmp/skills/skills/misc/git-guardrails-claude-code/SKILL.md)",
+      "Bash(cat /tmp/skills/skills/engineering/implement/SKILL.md)",
+      "Bash(cat /tmp/skills/skills/engineering/codebase-design/SKILL.md)",
+      "Bash(cat /tmp/skills/skills/productivity/grilling/SKILL.md)",
+      "Bash(cat /tmp/skills/skills/engineering/setup-matt-pocock-skills/SKILL.md)",
+      "Bash(ls -1 /tmp/skills/skills/in-progress/ | grep -v README)",
+      "Bash(ls -1 /tmp/skills/skills/misc/ | grep -v README)",
+      "Bash(ls -1 /tmp/skills/skills/personal/ | grep -v README)",
+      "Bash(ls -1 /tmp/skills/skills/deprecated/ | grep -v README)",
+      "Bash(cat /tmp/skills/skills/engineering/resolving-merge-conflicts/SKILL.md)",
+      "Bash(cat /tmp/skills/skills/in-progress/review/SKILL.md)",
+      "Bash(cat /tmp/skills/skills/in-progress/loop-me/SKILL.md)",
+      "Bash(cat /tmp/skills/skills/misc/scaffold-exercises/SKILL.md)"
+    ]
+  }
+}
